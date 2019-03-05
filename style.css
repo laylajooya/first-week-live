@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/geometry2.png);
+    color: #777777;
+    font-family: 'Arial', 'Helvetic Neue', Helvetica, sans-serif;
+
+}
+
+header {
+    position: relative;
+    display:block;
+    max-width:100%;
+    height:100%;
+    margin:0 auto;
+    padding:1rem 5rem;
+    background:#ffffff;
+    columns: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 20px;
+    padding-top: 10px;
+    line-height: 45px;
+    font-size: 2rem;
+    margin-left: 125px;
+    display: inline;
+}
+nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    float:right;
+    display:inline;
+}
+
+nav  li {
+    position:relative;
+    display:inline-block;
+    list-style-type: none;
+    padding:0 1rem;
+    color: #777777;
+    font-family: 'Arial', 'Helvetic Neue', Helvetica, sans-serif;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+hr {
+    border: 1px solid;
+    color: #777777;
+    width: 95%;
+}
+
+p {
+    padding: 20px;
+}
+
+#about-me {
+    background-color: #ffffff;
+    border-color:#cccccc;
+    width: 960px;
+}
+
+#contact {
+    background-color: #ffffff;
+    border-color:#cccccc;
+    width: 960px;
+}
+
+#portfolio {
+    background-color: #ffffff;
+    border-color:#cccccc;
+    width: 960px;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  
+  /* Add a background color and some padding around the form */
+  .form-container {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto; 
+    padding: 20px;  
+  }
+  /* host hw in progress on git by WEDNESDAY */
